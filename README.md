@@ -1,4 +1,5 @@
-# MomentsAngular
+
+<h1 align="center"><img src="https://github.com/matheusbattisti/curso_angular_yt/blob/19_projeto_moments/moments/src/assets/moments.png?raw=true" width="40"/> Moments Angular </h1>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
