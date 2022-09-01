@@ -11,7 +11,7 @@
     </form>
   </div>
   <div *ngIf="moments.length > 0; else noMoments">
-    <div class="moments-container">
+    <div class="moments-container" *ngIf="moments; else loading">
       <div class="moment" *ngFor="let moment of moments">
         <img
           src="{{ baseApiUrl }}uploads/{{ moment.image }}"
@@ -24,7 +24,9 @@
       </div>
     </div>
   </div>
-  <ng-template #noMoments>
+  <ng-template #noMoments #loading>
     <h1>Não há momentos cadastrados!</h1>
+    <app-loading></app-loading>
+    <a routerLink="/moments/new">Compartilhe um momento!</a>
   </ng-template>
 </div>
