@@ -10,12 +10,12 @@ import { MomentService } from 'src/app/services/moment.service';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
-  faSearch = faSearch;
   allMoments: Moment[] = [];
   moments: Moment[] = [];
   baseApiUrl = environment.baseApiUrl;
 
-  // todo search
+  faSearch = faSearch;
+  searchTerm: string = '';
 
   constructor(private momentsService: MomentService) {}
 
@@ -30,6 +30,15 @@ export class HomeComponent implements OnInit {
       });
       this.allMoments = data;
       this.moments = data;
+    });
+  }
+
+  search(e: Event): void {
+    const target = e.target as HTMLInputElement;
+    const value = target.value;
+
+    this.moments = this.allMoments.filter((moment) => {
+      return moment.title.toLowerCase().includes(value);
     });
   }
 }
