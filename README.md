@@ -3,6 +3,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
+### Finalidade da Aplicação
+A aplicação tem como finalidade a postagem de momentos da sua vida e estes momentos podem receber comentários de outra pessoas. Os momentos recebem título, descrição e foto. Os dados são salvos no banco de dados e aplicação fron-end será alimentada por meio do consumo de API realizada em Node.js.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
