@@ -14,3 +14,11 @@ p {
 .about a {
   text-decoration: underline;
 }
+
+@media (max-width: 720px) {
+  .about {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+}

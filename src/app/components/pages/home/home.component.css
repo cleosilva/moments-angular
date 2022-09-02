@@ -69,3 +69,30 @@ a:hover {
   padding: 0.5em;
   text-align: center;
 }
+
+@media (max-width: 430px) {
+  .home-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-container h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .moments-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .moment {
+    width: 100%;
+  }
+  .search-container form {
+    width: 80%;
+    position: relative;
+  }
+}

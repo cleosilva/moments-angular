@@ -103,3 +103,11 @@ a fa-icon {
   background-color: #dc3545;
   color: #fff;
 }
+
+@media (max-width: 720px) {
+  form {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
