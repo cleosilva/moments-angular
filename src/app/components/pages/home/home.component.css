@@ -70,7 +70,7 @@ a:hover {
   text-align: center;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 720px) {
   .home-container {
     margin: 0 auto;
     display: flex;

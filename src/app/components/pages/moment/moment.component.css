@@ -68,3 +68,20 @@ img {
 .author span {
   font-weight: bold;
 }
+
+@media (max-width: 720px) {
+  .comment-form form {
+    width: 600px;
+  }
+  .actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    max-width: 300px;
+    margin-bottom: 0 auto 1em;
+  }
+}

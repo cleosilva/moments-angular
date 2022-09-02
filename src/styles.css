@@ -110,4 +110,17 @@ a fa-icon {
     margin: 0 auto;
     margin-bottom: 30px;
   }
+
+  .edit-btn,
+  .remove-btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  button {
+    display: flex;
+    align-items: center;
+  }
 }
