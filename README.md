@@ -6,6 +6,26 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Finalidade da Aplicação
 A aplicação tem como finalidade a postagem de momentos da sua vida e estes momentos podem receber comentários de outra pessoas. Os momentos recebem título, descrição e foto. Os dados são salvos no banco de dados e aplicação fron-end será alimentada por meio do consumo de API realizada em Node.js.
 
+### 🎲 Clonando a aplicação
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/cleosilva/moments-angular.git>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd moments-angular
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ ng serve 
+
+# O servidor inciará na porta:4200 - acesse <http://localhost:4200>
+```
+
+### Demonstração da aplicação
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
